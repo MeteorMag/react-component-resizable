@@ -121,6 +121,7 @@ var Resizable = React.createClass({
   getDimensions: function getDimensions() {
     var el = this.refs.resizable;
     if (! el) return false;
+
     return {
       width: el.offsetWidth,
       height: el.offsetHeight
